@@ -1,0 +1,96 @@
+#Основы Python
+print(5)
+print(5 + 3)
+print("false")
+print("false" * 3)
+print("-" * 15)
+
+print(1, 2, 3, 4, sep=" 1 ")
+print(1, 2, 3, 4, sep="-", end=" 4566")
+
+print(range(10))
+print(*range(700, 500, -10))
+print(*range(7, 50, 10))
+print(*range(7, 24, 4))
+print(9 / 2)
+print(9 // 2)
+print(9 % 2)
+print(9 ** 2)
+print(9 * 2)
+print(9 == 2)
+print(9 != 2)
+print(9 < 2)
+
+x = 88
+y = 55
+print(x > y and 25 < x - y)
+s = "Visual Studio Cod"
+print(len (s))
+print(s)
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+print(s.lower().title())
+print(s.center(40, "-"))
+print(s.count('i'))
+print(s.index('i'))
+print(s.find('i'))
+print(s.rfind('i'))
+
+print("qwert123".isalnum())
+print("123".isnumeric())
+print("qwert".isalpha())
+print("qwert123".isascii())
+print("qwert123".islower())
+s2 = s
+print(s.split())
+print(s.splitlines())
+print(s2.replace("i", "1"))
+print(s.replace("o", "0"))
+
+print(s)
+
+print(s[::-1])
+print(s.upper()[14:] + "M")
+
+
+z = " pyt  ho  n        "
+print(z.strip(" "))
+x = 2
+match x:
+    case 1: print(1)
+    case 2: print(2)
+    case 3: print(3)
+    case _: print("lheujt")
+
+x = 2
+y = 3
+match x, y:
+    case 1, 1: print(11)
+    case 2, _: print(2)
+    case 2, 3: print(7)
+    case _, 3: print(3)
+x = 6
+y = 4
+if x + y < x - 5:
+    print("tt")
+else:
+    print("r8")
+for i in range(7):
+    print(i)
+
+for i in "uuuu":
+    print(i)
+for i in range(7):
+    if i == 1:
+        continue
+    if i == 6:
+        break
+    print(i, end=' ')
+
+q = 6
+w = 10
+simv = "0"
+
+for u in range(q):
+    print(simv * w)
