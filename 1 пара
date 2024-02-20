@@ -25,7 +25,7 @@ x = 88
 y = 55
 print(x > y and 25 < x - y)
 s = "Visual Studio Cod"
-print(len (s))
+print(len(s))
 print(s)
 print(s.upper())
 print(s.lower())
