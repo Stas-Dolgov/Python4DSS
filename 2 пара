@@ -1,0 +1,41 @@
+def show_name():
+    print("energy")
+
+show_name()
+
+
+def get_name():
+    return "Stas"
+
+print(get_name())
+
+r = get_name
+print(r)
+
+
+def do_nothing():
+    pass
+
+do_nothing()
+
+
+
+def pv(v, p):
+    if p == 'f':
+        return v >= 56.5
+    elif p == 'm':
+        return v >= 61.5
+    
+print(pv(54, 'm'))
+
+def is_person_retiree(age: float, sex: str) -> bool:
+    """Вернуть признак пенсионера.
+    Параметры:
+    age -> возраст (лет)
+    f / m = пол (женс / мужск)"""
+    if sex == 'f':
+        return age >= 56.5
+    elif sex == 'm':
+        return age >= 61.5
+    
+print(is_person_retiree(age=4, sex='f'))
